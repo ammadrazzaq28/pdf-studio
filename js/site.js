@@ -1,6 +1,6 @@
 /* Shared nav, year, reveal, effect chips */
 (function () {
-  var cfg = window.CONVERTLY_CONFIG || {};
+  var cfg = window.PDFSTUDIO_CONFIG || {};
   var yearEl = document.getElementById("year");
   if (yearEl) yearEl.textContent = String(new Date().getFullYear());
 
